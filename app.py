@@ -35,8 +35,8 @@ bot = Client(
     "Music Stream Bot",
     bot_token = os.environ["BOT_TOKEN"],
     api_id = int(os.environ["API_ID"]),
+    bot_name = os.environ["BOT_NAME"],
     api_hash = os.environ["API_HASH"]
-    bot_name = os.environ["BOT_NAME"]
 )
 
 client = Client(os.environ["SESSION_NAME"], int(os.environ["API_ID"]), os.environ["API_HASH"])
