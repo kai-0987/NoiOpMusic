@@ -8,7 +8,8 @@
 <p align="center"><a href="https://t.me/bazigar_xd"><img src="https://telegra.ph/file/f85d40695466933c7f113.jpg" height="500" width="999" alt="MUSIC PLAYER"></p>
 
 ## ✨ Heroku Deploy
-Change the app region to Europe (it will help to make the bot stable)
+  
+YOU CAN DEPLOY FROM HEAR.....
   
 <p align="left"><a href="https://dashboard.heroku.com/new?template=https://github.com/ImJanindu/47MusicPlayerBot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250" alt="Deploy"></a></p>
 
