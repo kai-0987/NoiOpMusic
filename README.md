@@ -15,7 +15,7 @@ YOU CAN DEPLOY FROM HEAR.....
 
 ## 🏃‍♂ Pyrogram Session 
 
-[![String](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://replit.com/@AaravxD/PyroStringSession#main.py)
+[Session](https://heroku.com/deploy?template=https://replit.com/@AaravxD/PyroStringSession#main.py)
 
 ## 🛠 Config Vars
 
