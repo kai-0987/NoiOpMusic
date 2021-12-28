@@ -11,7 +11,7 @@
   
 YOU CAN DEPLOY FROM HEAR.....
   
-<p align="left"><a href="https://dashboard.heroku.com/new?template=https://github.com/baziix/noiopmusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250" alt="Deploy"></a></p>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/baziix/noiopmusic)
 
 ## 🏃‍♂ Pyrogram Session
 
