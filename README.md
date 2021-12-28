@@ -5,7 +5,7 @@
 <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square&logo=python&color=blue"></a>
 <a href="https://github.com/NOIOPMUSIC/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square"></a></p>
 
-<p align="center"><a href="https://t.me/bazigar_xd"><img src="https://telegra.ph/file/f85d40695466933c7f113.jpg" height="300" width="310" alt="MUSIC PLAYER"></p>
+<p align="center"><a href="https://t.me/bazigar_xd"><img src="https://telegra.ph/file/f85d40695466933c7f113.jpg" height="300" width="999" alt="MUSIC PLAYER"></p>
 
 ## ✨ Heroku Deploy
 Change the app region to Europe (it will help to make the bot stable)
