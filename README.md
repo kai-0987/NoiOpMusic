@@ -13,9 +13,9 @@ YOU CAN DEPLOY FROM HEAR.....
   
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/baziix/noiopmusic)
 
-## 🏃‍♂ Pyrogram Session
+## 🏃‍♂ Pyrogram Session 
 
-<p align="left"><a href="https://replit.com/@AaravxD/PyroStringSession#main.py"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="245" alt="Repl"></a></p>  
+[![String](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://replit.com/@AaravxD/PyroStringSession#main.py)
 
 ## 🛠 Config Vars
 
