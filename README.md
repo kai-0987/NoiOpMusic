@@ -30,14 +30,14 @@ YOU CAN DEPLOY FROM HEAR.....
 
 Command  | Description
 
-`/play     play the given query or YouTube link as audio`
-`/vplay    play the given query or YouTube link as video`
-`/pause    pause the audio stream                       `    
-`/resume   resume the audio stream                      `   
-`/mute     mute the userbot                             `  
-`/unmute   unmute the userbot                           `
-`/end     end voice chat streaming                      `
-`/reload  refresh the bot                               `      
+`/play     play the given query or YouTube link as audio` \n
+`/vplay    play the given query or YouTube link as video` \n
+`/pause    pause the audio stream                       ` \n   
+`/resume   resume the audio stream                      ` \n 
+`/mute     mute the userbot                             ` \n
+`/unmute   unmute the userbot                           ` \n
+`/end     end voice chat streaming                      ` \n
+`/reload  refresh the bot                               ` \n    
 
 ## ❤️ Support
 
