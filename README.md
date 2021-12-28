@@ -47,8 +47,15 @@ Command  | Description
 
 `/reload  refresh the bot                               `
 
+
+## ❤️ Special Thanks To YOu
+
+-[levina](https://github.com/levina-lab)-Orignal Repo
+
 ## ❤️ Support
 
 <a href="https://t.me/CFC_BOT_SUPPORT"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram" alt="Group"></a><br>
 <a href="https://t.me/BAZIGAR_XD"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram" alt="Channel"></a>
+
+
 
