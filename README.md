@@ -5,7 +5,7 @@
 <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square&logo=python&color=blue"></a>
 <a href="https://github.com/NOIOPMUSIC/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square"></a></p>
 
-<p align="center"><a href="https://t.me/bazigar_xd"><img src="https://telegra.ph/file/f85d40695466933c7f113.jpg" height="300" width="999" alt="MUSIC PLAYER"></p>
+<p align="center"><a href="https://t.me/bazigar_xd"><img src="https://telegra.ph/file/f85d40695466933c7f113.jpg" height="600" width="999" alt="MUSIC PLAYER"></p>
 
 ## ✨ Heroku Deploy
 Change the app region to Europe (it will help to make the bot stable)
@@ -27,16 +27,16 @@ Change the app region to Europe (it will help to make the bot stable)
 
 ## ℹ️ Commands
 
-| Command  | Description                                          |
-| -------  | ---------------------------------------------------- |
-| `/play    | play the given query or YouTube link as audio        |
-| `/vplay   | play the given query or YouTube link as video        |
-| `/pause   | pause the audio stream                               |
-| `/resume  | resume the audio stream                              |
-| `/mute    | mute the userbot                                     |
-| `/unmute  | unmute the userbot                                   |
-| `/end    | end voice chat streaming  |
-| `/reload | refresh the bot                                      |
+Command  | Description
+
+`/play     play the given query or YouTube link as audio`
+`/vplay    play the given query or YouTube link as video`
+`/pause    pause the audio stream                       `    
+`/resume   resume the audio stream                      `   
+`/mute     mute the userbot                             `  
+`/unmute   unmute the userbot                           `
+`/end     end voice chat streaming                      `
+`/reload  refresh the bot                               `      
 
 ## ❤️ Support
 
