@@ -46,27 +46,6 @@ CHATS = []
 
 OWNER_ID = int(os.environ["OWNER_ID"])
 
-START_TEXT = """
-**ɪ ᴀᴍ ɴᴏɪɴᴏɪ🌸🤖t** [ㅤ](https://telegra.ph/file/a439299736dc1fe3928e3.jpg)
-️➖➖➖➖➖➖➖➖➖➖➖➖➖
-**sᴜᴘᴇʀғᴀsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ 🌸. ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs!!**
-️➖➖➖➖➖➖➖➖➖➖➖➖➖
-☉ **ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ.**
-"""
-
-buttons = [
-    [
-        InlineKeyboardButton(text="📢Uᴘᴅᴀᴛᴇ", url="http://t.me/BAZIGAR_XD"),
-        InlineKeyboardButton(text="📢Sᴜᴘᴘᴏʀᴛ", url="https://t.me/KazukoSupportChat"),
-    ],
-    [
-        InlineKeyboardButton(text="Mᴜsɪᴄ ᴄᴍᴅ 📚", url="https://t.me/KazukoSupportChat"),
-    ],
-    [
-        
-        InlineKeyboardButton(text="Aᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ✨", url="http://t.me/{BOT_NAME}?startgroup=true"),
-    ],
-]
 
 BUTTONS = InlineKeyboardMarkup(
     [
