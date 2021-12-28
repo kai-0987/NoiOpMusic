@@ -52,7 +52,7 @@ Command  | Description
 
 ❤️ [levina](https://github.com/levina-lab) - special thanks
 ❤️ [Heyaaman](https://github.com/heyaaman) - special thanks
-❤️ [Ghost](https://t.me/godofwar_033)
+❤️ [Ghost](https://t.me/godofwar_033) - special thanks
 
 ## ❤️ Support
 
