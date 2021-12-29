@@ -120,7 +120,7 @@ async def start_group(_, message):
     await message.reply_text("🎧 <i>Music player is running.</i>")
     
 
-@bot.on_message(filters.command("play") & filters.group)
+@bot.on_message(filters.command("mplay") & filters.group)
 async def music_play(_, message):
     await message.delete()
     user_id = message.from_user.id
