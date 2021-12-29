@@ -169,7 +169,7 @@ async def music_play(_, message):
         return await m.edit(str(e))
     
     
-@bot.on_message(filters.command("video") & filters.group)
+@bot.on_message(filters.command("vplay") & filters.group)
 async def video_play(_, message):
     await message.delete()
     user_id = message.from_user.id
@@ -218,7 +218,7 @@ async def video_play(_, message):
         return await m.edit(str(e))
     
 
-@bot.on_message(filters.command("stop") & filters.group)
+@bot.on_message(filters.command("vstop") & filters.group)
 async def end(_, message):
     await message.delete()
     user_id = message.from_user.id
@@ -233,7 +233,7 @@ async def end(_, message):
         await message.reply_text("❗Nothing is playing.")
         
 
-@bot.on_message(filters.command("pause") & filters.group)
+@bot.on_message(filters.command("vpause") & filters.group)
 async def pause(_, message):
     await message.delete()
     user_id = message.from_user.id
@@ -250,7 +250,7 @@ async def pause(_, message):
         await message.reply_text("❗Nothing is playing.")
         
         
-@bot.on_message(filters.command("resume") & filters.group)
+@bot.on_message(filters.command("vresume") & filters.group)
 async def resume(_, message):
     await message.delete()
     user_id = message.from_user.id
@@ -267,7 +267,7 @@ async def resume(_, message):
         await message.reply_text("❗Nothing is playing.")
         
         
-@bot.on_message(filters.command("mute") & filters.group)
+@bot.on_message(filters.command("vmute") & filters.group)
 async def mute(_, message):
     await message.delete()
     user_id = message.from_user.id
@@ -284,7 +284,7 @@ async def mute(_, message):
         await message.reply_text("❗Nothing is playing.")
         
         
-@bot.on_message(filters.command("unmute") & filters.group)
+@bot.on_message(filters.command("vunmute") & filters.group)
 async def unmute(_, message):
     await message.delete()
     user_id = message.from_user.id
@@ -301,7 +301,7 @@ async def unmute(_, message):
         await message.reply_text("❗Nothing is playing.")
         
         
-@bot.on_message(filters.command("restart"))
+@bot.on_message(filters.command("vrestart"))
 async def restart(_, message):
     user_id = message.from_user.id
     if user_id != OWNER_ID:
