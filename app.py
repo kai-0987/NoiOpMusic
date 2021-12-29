@@ -46,25 +46,8 @@ CHATS = []
 
 OWNER_ID = int(os.environ["OWNER_ID"])
 
-
 START_TEXT = """
-
-
-
 """
-
-START_BUTTONS = InlineKeyboardMarkup(
-
-    [
-
-        [
-
-            
-        ]
-
-    ]
-
-)
 
 
 BUTTONS = InlineKeyboardMarkup(
@@ -77,7 +60,7 @@ BUTTONS = InlineKeyboardMarkup(
             InlineKeyboardButton("🔊", callback_data="unmute")
         ],
         [
-            InlineKeyboardButton("🗑 Close", callback_data="close")
+            InlineKeyboardButton("🗑 Close Menu", callback_data="close")
         ]
     ]
 )
@@ -86,7 +69,7 @@ BUTTONS = InlineKeyboardMarkup(
 @bot.on_callback_query()
 async def callbacks(_, cq: CallbackQuery): 
     if cq.from_user.id != OWNER_ID:
-        return await cq.answer("You are not admin hear.")   
+        return await cq.answer("You aren't the owner of me.")   
     chat_id = cq.message.chat.id
     data = cq.data
     if data == "close":
@@ -128,14 +111,14 @@ async def callbacks(_, cq: CallbackQuery):
             await cq.answer("Nothing is playing.")
             
 
-@bot.on_message(filters.command("start") & filters.private)
+@bot.on_message(filters.command("vstart") & filters.private)
 async def start_private(_, message):
     msg = START_TEXT.format(message.from_user.mention)
     await message.reply_text(text = msg,
                              reply_markup = START_BUTTONS)
     
 
-@bot.on_message(filters.command("start") & filters.group)
+@bot.on_message(filters.command("vstart") & filters.group)
 async def start_group(_, message):
     await message.reply_text("🎧 <i>Music player is running.</i>")
     
@@ -158,7 +141,7 @@ async def music_play(_, message):
         thumb = results[0]["thumbnails"][0]
         duration = results[0]["duration"]
         yt = YouTube(link)
-        cap = f"🎵 <b>Playing:</b> [{yt.title}]({link}) \n\n⏳ <b>Duration:</b> {duration} \n⚙TAP BUTTON FOR SETUP "
+        cap = f"🎵 <b>Playing:</b> [{yt.title}]({link}) \n\n⏳ <b>Duration:</b> {duration}"
         aud = yt.streams.get_by_itag(140).download()
     except Exception as e:
         if "Too Many Requests" in str(e):
@@ -207,7 +190,7 @@ async def video_play(_, message):
         thumb = results[0]["thumbnails"][0]
         duration = results[0]["duration"]
         yt = YouTube(link)
-        cap = f"🎬 <b>Playing:</b> [{yt.title}]({link}) \n\n⏳ <b>Duration:</b> {duration} \n⚙TAP ON BUTTONS FOR SETUP"
+        cap = f"🎬 <b>Playing:</b> [{yt.title}]({link}) \n\n⏳ <b>Duration:</b> {duration}"
         vid = yt.streams.get_by_itag(22).download()
     except Exception as e:
         if "Too Many Requests" in str(e):
