@@ -47,6 +47,26 @@ CHATS = []
 OWNER_ID = int(os.environ["OWNER_ID"])
 
 
+START_TEXT = """
+
+
+
+"""
+
+START_BUTTONS = InlineKeyboardMarkup(
+
+    [
+
+        [
+
+            
+        ]
+
+    ]
+
+)
+
+
 BUTTONS = InlineKeyboardMarkup(
     [
         [
